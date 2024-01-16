@@ -89,7 +89,7 @@ transform: translate(500%, 1505%);
         transform: translate(950%, 1505%);
         
         }
-        .btn-fourt{
+        .btn-fourth{
             color: red;
             text-align: center;
             font-family: Inter;
@@ -100,3 +100,74 @@ transform: translate(500%, 1505%);
             transform: translate(500%, 1505%);
             
             }
+            
+/*Poularity Styule*/
+            .Popularity{
+                display: flex;
+                float: 100px;
+                padding: 10px;
+                font-weight: 20;
+                line-height: 25px;
+                transform: translate(-10%, 605%);
+            }
+            /*<style type="text/css">
+            .img_deg {
+              float: 100px;
+              padding: 10px;
+            }
+            img {
+              height: 400px;
+              width: 400px;
+              float: right;
+            }
+          </style>*/
+         
+.body{
+    <form action="action_page.php">
+      <div class="Container2">
+        <h2><p>Subcribe to our Newsletter</p></h2>
+        <p>Get all of our updated news and offer</p>
+      </div>
+      <div class="Container2" style="background-color: aquamarine">
+        <input type="text" placeholder="Enter your name" name="name" required />
+        <input
+          type="text"
+          placeholder="Enter your email address"
+          name="email"
+          required
+        />
+        <label>
+          <input type="checkbox" checked="checked" name="Subcribe" />Daily
+          Newsletter
+        </label>
+      </div>
+      <div class="Container2">
+        <input type="submit" value="Subcribe" />
+        <button>Like</button>
+      </div>
+    </form>
+}
+.containerimage{
+    background-color: bisque;
+    display: flex;
+}
+.container1{
+    text-align: center;
+    
+}
+.Container2{
+    float: 100px;
+                padding: 1px;
+                font-weight: 1;
+                line-height: 1px;
+                transform: translate(0%, 5%);
+    
+  }
+  .column{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+      
+         
+      
